@@ -1,0 +1,7 @@
+file = open("data.txt")
+print(file.tell())
+file.seek(12)
+print(file.tell())
+file.seek(3,1)
+print(file.tell())
+file.close()
