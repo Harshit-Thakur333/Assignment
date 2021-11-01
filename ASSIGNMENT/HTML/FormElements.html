@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Elements</title>
+    </head>
+    <body>
+        <marquee><h4>THIS IS FUNCTION OF MARQUEE</h4></marquee>
+        <form>
+            Input Type TEXT : <input type="text" placeholder="Enter text"><br><br>
+            Input type Password: <input type="password" placeholder="Enter Password"><br><br>
+            <input type="radio" name="radbtn" value="radiobutton">
+            <lable for="radbtn">Radio Button</lable><br><br>
+            <input type="checkbox" id="check" value="check">
+            <lable for="check">Checkbox</lable><br><br>
+            <button type="button">Button</button><br><br>
+        </form>
+        <h3>HTML5 Input Types</h3>
+        <form id="HTML5_input_types">
+            <input type="number" placeholder="Enter Number"><br><br>
+            <label for="range">Range between 1 to 10</label>
+            <input type="range" name="range" min="1" max="10"><br><br>
+            Input color: <input type="color"><br><br>
+            Enter a date: <input type="date"><br><br>
+            Select A File: <input type="file"><br><br>
+            Input Time: <input type="time"><br><br>
+            Input Month: <input type="month"><br><br>
+            Input Week: <input type="week"><br><br>
+            Enter your email: <input type="email" placeholder="example@xyz.com"><br><br>
+        </form>
+        <form id="input_restrictions">
+            Disabled Input: <input type="text" placeholder="Disabled Input" disabled><br><br>
+            Min, Max, Maxlength and Size: <input type="text" placeholder=" Min 5 and Max 10 letters" min="5" max="10" maxlength="10" size="30"><br><br>
+            Read only: <input type="text" placeholder="Readonly" readonly><br><br>
+            Required:<span style="color: red;">*</span><input type="tel" placeholder="Enter Phone Number" required><br><br>
+            Value: <input type="number" value="100"><br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><br><br>
+        </form>
+        <a href="basic.html" target="iframe1">OPEN basic.html in IFRAME below</a><br><br>
+        <iframe name="iframe1" src="target.html" width="400" height="250"></iframe>
+    </body>
+</html>
