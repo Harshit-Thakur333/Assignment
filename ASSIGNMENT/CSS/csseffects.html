@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS EFFECT</title>
+        <style>
+            body{
+                padding: 50px;
+            }
+            img{
+                width: 350px;
+                border-radius: 8px;
+                border: solid black 2px;
+            }
+            img:hover{
+                cursor: pointer;
+                box-shadow: 0 10px 10px 0 black;
+                transition: 2ms;
+            }
+            div.static {
+                position: static;
+                border: 3px solid #73AD21;
+            }
+            div.relative {
+                position: relative;
+                left: 30px;
+                border: 3px solid #73AD21;
+            }
+            div.fixed {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                width: 300px;
+                border: 3px solid #73AD21;
+            }
+            
+            div.sticky {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                padding: 5px;
+                background-color: #cae8ca;
+                border: 2px solid #4CAF50;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="tree.jpeg" alt="No Image Found">
+        <div class="static">
+            This div element has position: static;
+        </div>
+        <div class="relative">
+            This div element has position: relative;
+        </div>
+        <div class="fixed">
+            This div element has position: fixed;
+        </div>
+        <div class="absolute">
+            This div element has position: absolute;
+        </div>
+        <div class="sticky">I am sticky!</div>
+    </body>
+</html>
